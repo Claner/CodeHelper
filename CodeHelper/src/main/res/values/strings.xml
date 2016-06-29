@@ -11,6 +11,16 @@
     <string name="btn_scala_tv_value">Scala</string>
     <string name="btn_http2_tv_value">Http2</string>
 
+    <!--Calendar_Text_Value-->
+    <string name="calendar_textview_value">Android-CalendarView</string>
+    <string name="button0_value">Normal Calendar Mode</string>
+    <string name="button1_value">Record of This Month Mode</string>
+    <string name="demo0_value">Demo0</string>
+    <string name="demo1_value">Demo1</string>
+    <string name="prev_value">prev</string>
+    <string name="year_month_textview_value">xxxx-xx"</string>
+    <string name="next_value">next</string>
+
     <!--ToolBar-->
     <string name="toolbar_app">编程助手</string>
     <string name="toolbar_about">关于</string>
@@ -20,6 +30,46 @@
         <item>新鲜事</item>
         <item>学习库</item>
         <item>发现</item>
+    </string-array>
+
+    <string-array name="calendarview_weektext_0">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+
+    <string-array name="calendarview__weektext_1">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+
+    <string-array name="calendarview__weektext_2">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+
+    <string-array name="calendarview__weektext_3">
+        <item>Mon</item>
+        <item>Tus</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
     </string-array>
 
 </resources>

@@ -33,7 +33,23 @@
             android:launchMode="singleTask"
             android:theme="@style/MyAppTheme">
         </activity>
-        <activity android:name=".ui.activity.TestActivity"
+        <activity
+            android:name=".ui.activity.TestActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/MyAppTheme">
+        </activity>
+        <activity
+            android:name=".ui.activity.CalendarActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/MyAppTheme">
+        </activity>
+        <activity
+            android:name=".ui.activity.Demo0Activity"
+            android:launchMode="singleTask"
+            android:theme="@style/MyAppTheme">
+        </activity>
+        <activity
+            android:name=".ui.activity.Demo1Activity"
             android:launchMode="singleTask"
             android:theme="@style/MyAppTheme">
         </activity>

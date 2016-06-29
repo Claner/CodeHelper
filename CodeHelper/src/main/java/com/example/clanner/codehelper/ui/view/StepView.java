@@ -149,6 +149,7 @@ public class StepView extends LinearLayout implements StepsViewIndicator.OnDrawI
 
     @Override
     public void ondrawIndicator() {
+        //这里的ondrawIndicator()方法是在StepsViewIndicator的onSizeChanged（）引发的回调，来设置TextView
         List<Float> complectedXPosition = mStepsViewIndicator.getComplectedXPosition();
         if (mTexts != null) {
             for (int i = 0; i < mTexts.size(); i++) {

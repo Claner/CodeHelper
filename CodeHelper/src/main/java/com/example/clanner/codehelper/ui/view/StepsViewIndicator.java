@@ -169,7 +169,7 @@ public class StepsViewIndicator extends View {
             if (i < mComplectingPosition)//判断在完成之前的所有点
             {
                 //判断在完成之前的所有点，画完成的线，这里是矩形
-                canvas.drawRect(preComplectedXPosition + mCircleRadius - 10, mLeftY, afterComplectedXPosition - mCircleRadius + 10, mRightY, mCompletedPaint);
+                canvas.drawRect(preComplectedXPosition + mCircleRadius -10, mLeftY, afterComplectedXPosition - mCircleRadius +10, mRightY, mCompletedPaint);
             } else {
                 mPath.moveTo(preComplectedXPosition + mCircleRadius, mCenterY);
                 mPath.lineTo(afterComplectedXPosition - mCircleRadius, mCenterY);
@@ -184,14 +184,17 @@ public class StepsViewIndicator extends View {
             final float currentComplectedXPosition = mComplectedXPosition.get(i);
             Rect rect = new Rect((int) (currentComplectedXPosition - mCircleRadius), (int) (mCenterY - mCircleRadius), (int) (currentComplectedXPosition + mCircleRadius), (int) (mCenterY + mCircleRadius));
             if (i < mComplectingPosition) {
+                //绘制完成的图标
                 mCompleteIcon.setBounds(rect);
                 mCompleteIcon.draw(canvas);
             } else if (i == mComplectingPosition && mComplectedXPosition.size() != 1) {
                 mCompletedPaint.setColor(Color.WHITE);
                 canvas.drawCircle(currentComplectedXPosition, mCenterY, mCircleRadius * 1.1f, mCompletedPaint);
+                //绘制正在进行的图标
                 mAttentionIcon.setBounds(rect);
                 mAttentionIcon.draw(canvas);
             } else {
+                //绘制未完成的图标
                 mDefaultIcon.setBounds(rect);
                 mDefaultIcon.draw(canvas);
             }

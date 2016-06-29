@@ -11,6 +11,9 @@
     <color name="test_background">#00BEAF</color>
     <color name="uncompleted_color">#A3E0D9</color>
     <color name="uncompleted_text_color">#F8F8F8</color>
+    <color name="normal">#ffffff</color>
+    <color name="pressed">#d9d9d9</color>
     <!--应用基础色调-->
     <color name="app_base_color">#0099CC</color>
+    <color name="calendar_background">#ffffff</color>
 </resources>

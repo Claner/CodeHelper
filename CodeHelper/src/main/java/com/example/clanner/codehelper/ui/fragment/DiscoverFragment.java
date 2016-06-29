@@ -5,6 +5,7 @@ import android.view.View;
 
 import com.example.clanner.codehelper.R;
 import com.example.clanner.codehelper.ui.activity.AboutActivity;
+import com.example.clanner.codehelper.ui.activity.CalendarActivity;
 import com.example.clanner.codehelper.ui.activity.TestActivity;
 import com.example.clanner.codehelper.utils.CommonUtils;
 
@@ -33,9 +34,9 @@ public class DiscoverFragment extends BaseFragment {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_sponsor:
+                CommonUtils.StartActivity(getActivity(), CalendarActivity.class);
                 break;
             case R.id.btn_usage:
-                //测试
                 Test();
                 break;
             case R.id.btn_rateapp:

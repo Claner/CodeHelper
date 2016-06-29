@@ -40,6 +40,7 @@ public abstract class BaseActivity extends SwipeBackActivity {
     }
 
     protected void initActionBar(Toolbar toolbar,int title,boolean isCanBack){
+        toolbar.setNavigationIcon(R.mipmap.ic_back_white);
         setSupportActionBar(toolbar);
         actionBar = getSupportActionBar();
         actionBar.setTitle(title);
@@ -47,6 +48,7 @@ public abstract class BaseActivity extends SwipeBackActivity {
     }
 
     protected void initActionBar(Toolbar toolbar,String title,int logo,boolean isCanBack){
+        toolbar.setNavigationIcon(R.mipmap.ic_back_white);
         setSupportActionBar(toolbar);
         actionBar = getSupportActionBar();
         actionBar.setTitle(title);
@@ -55,6 +57,7 @@ public abstract class BaseActivity extends SwipeBackActivity {
     }
 
     protected void initActionBar(Toolbar toolbar,int title,int logo,boolean isCanBack){
+        toolbar.setNavigationIcon(R.mipmap.ic_back_white);
         setSupportActionBar(toolbar);
         actionBar = getSupportActionBar();
         actionBar.setTitle(title);

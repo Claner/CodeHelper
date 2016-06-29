@@ -46,12 +46,12 @@ public abstract class BaseFragment extends SwipeBackFragment {
         activity.addFragment(fragment);
     }
 
-    /**
-     * 移除Fragment
-     */
-    protected void removeFragment(BaseFragmentActivity activity) {
-        activity.removeFragment();
-    }
+//    /**
+//     * 移除Fragment
+//     */
+//    protected void removeFragment(BaseFragmentActivity activity) {
+//        activity.removeFragment();
+//    }
 
     /**
      * 初始化ActionBar

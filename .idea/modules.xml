@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CodeHelper.iml" filepath="$PROJECT_DIR$/CodeHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeHelper/CodeHelper-CodeHelper.iml" filepath="$PROJECT_DIR$/CodeHelper/CodeHelper-CodeHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pickerview/pickerview.iml" filepath="$PROJECT_DIR$/pickerview/pickerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/swipeback/swipeback.iml" filepath="$PROJECT_DIR$/swipeback/swipeback.iml" />
     </modules>
   </component>

@@ -29,39 +29,32 @@ public class ResourceCenterFragment extends BaseFragment {
     @OnClick({R.id.btn_java_tv, R.id.btn_java, R.id.btn_android_tv, R.id.btn_android, R.id.btn_php, R.id.btn_python_tv, R.id.btn_python, R.id.btn_javascript_tv, R.id.btn_javascript, R.id.btn_c_tv, R.id.btn_c, R.id.btn_angular_tv, R.id.btn_angular, R.id.btn_scala_tv, R.id.btn_scala, R.id.btn_http2_tv, R.id.btn_http2})
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.btn_java_tv:
-                break;
             case R.id.btn_java:
-                break;
-            case R.id.btn_android_tv:
+                toast("btn_java");
                 break;
             case R.id.btn_android:
+                toast("btn_android");
                 break;
             case R.id.btn_php:
-                break;
-            case R.id.btn_python_tv:
+                toast("btn_php");
                 break;
             case R.id.btn_python:
-                break;
-            case R.id.btn_javascript_tv:
+                toast("btn_python");
                 break;
             case R.id.btn_javascript:
-                break;
-            case R.id.btn_c_tv:
+                toast("btn_javascript");
                 break;
             case R.id.btn_c:
-                break;
-            case R.id.btn_angular_tv:
+                toast("btn_c");
                 break;
             case R.id.btn_angular:
-                break;
-            case R.id.btn_scala_tv:
+                toast("btn_angular");
                 break;
             case R.id.btn_scala:
-                break;
-            case R.id.btn_http2_tv:
+                toast("btn_scala");
                 break;
             case R.id.btn_http2:
+                toast("btn_http2");
                 break;
         }
     }
